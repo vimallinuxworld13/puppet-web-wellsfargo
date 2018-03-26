@@ -44,5 +44,8 @@
 #
 class web {
 
+	class { 'web::install': }
+	class { 'web::webdeploy': }
+	class { 'web::service': }
 
 }
